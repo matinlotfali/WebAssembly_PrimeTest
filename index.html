@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Find Prime</title>
+</head>
+<body>
+    <script src="wasm/compiled/webassembly.js"></script>
+    <script src="js.js"></script>
+
+
+    <button onclick="js_run(10000)">Find using Javascript</button>
+    <br>
+    <br>
+    <button onclick="wa_run(10000)">Find using WebAssembly</button>
+    <br>
+    <br>
+    <span id="result"></span>
+</body>
+</html>
